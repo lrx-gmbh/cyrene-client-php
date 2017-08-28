@@ -1,0 +1,21 @@
+{
+    "name": "lrx-gmbh/cyrene-client-php",
+    "description": "Client for the ERP/CRM/CMS System Cyrene written in PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felix Ruzzoli",
+            "email": "felix.ruzzoli@lrx.gmbh"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Cyrene": "src/"
+        }
+    }
+}
